@@ -1,13 +1,13 @@
 # MCJE1.7.10-LawisMiniMods  
   
 Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)  
+No.01 "Disposable Bed Mod"
   
 ## 詳細(Details)  
   
 ### 概要(Overview)  
-マイクラJava版ver.1.7.10のための、  
-製作した小規模単発modのコードを置いておくための場所です。  
-  
+バニラのベッドを使い捨てにするmodです。  
+  
 ### 動作環境(Requirements)  　
 * Minecraft Java Edition ver.1.7.10  
 * Minecraft Forge ver.1.7.10-10.13.4.1558  
