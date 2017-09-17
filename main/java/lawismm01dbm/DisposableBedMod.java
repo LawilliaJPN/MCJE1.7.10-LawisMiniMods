@@ -10,6 +10,7 @@ import cpw.mods.fml.common.ModMetadata;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = DisposableBedMod.MOD_ID, name = DisposableBedMod.MOD_NAME, version = DisposableBedMod.MOD_VERSION)
 
@@ -26,6 +27,8 @@ public class DisposableBedMod {
 	public void preInit(FMLPreInitializationEvent event){
 		// MODの情報の登録
 		DbmInfoCore.registerInfo(meta);
+		// イベント処理
+		MinecraftForge.EVENT_BUS.register(new DbmEventHandler());
 	}
 
 	@EventHandler
