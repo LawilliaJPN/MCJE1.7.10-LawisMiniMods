@@ -23,3 +23,8 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
 ベッドを使い捨てにするmodです。  
 <https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod01dbm>  
   
+### No.02 "Enders' Nightmare"  
+  
+夜になるとエンドに飛ばされるmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod02en>  
+  
