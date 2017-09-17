@@ -17,7 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 public class DisposableBedMod {
 	public static final String MOD_ID = "DisposableBedMod";
 	public static final String MOD_NAME = "Disposable Bed Mod";
-	public static final String MOD_VERSION = "1.0";
+	public static final String MOD_VERSION = "1.1";
 	public static Logger logger = LogManager.getLogger("DisposableBedMod");
 
 	@Metadata(MOD_ID)

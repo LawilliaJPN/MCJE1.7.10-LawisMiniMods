@@ -50,28 +50,27 @@ public class DbmEventHandler {
 		List list = player.worldObj.getEntitiesWithinAABBExcludingEntity(player, player.boundingBox.addCoord(player.motionX, player.motionY, player.motionZ).expand(10.0D, 5.0D, 10.0D));
 
 		// Listが空の場合とnullの場合を除く
-        if (list != null && !list.isEmpty()) {
-        	// Listに入っているEntityを1つずつ確認
-        	for (int n = 0 ; n < list.size() ; n++) {
-        		Entity target = (Entity)list.get(n);
+		if (list != null && !list.isEmpty()) {
+			// Listに入っているEntityを1つずつ確認
+			for (int n = 0 ; n < list.size() ; n++) {
+				Entity target = (Entity)list.get(n);
 
-        		// EntityがベッドのEntityItemの場合
-        		if (target != null) {
-        			if (target instanceof EntityItem) {
-        				EntityItem item = (EntityItem)target;
-        				if (item.getEntityItem().getItem() == Items.bed) {
-        					System.out.println("bed");
+				// EntityがベッドのEntityItemの場合
+				if (target != null) {
+					if (target instanceof EntityItem) {
+						EntityItem item = (EntityItem)target;
+						if (item.getEntityItem().getItem() == Items.bed) {
 
-        					// ベッドを消滅させる
-        					if (!(event.entity.worldObj.isRemote)) {
-        						item.setDead();
-        					}
-        				}
-        			}
-        		}
+							// ベッドを消滅させる
+							if (!(event.entity.worldObj.isRemote)) {
+								item.setDead();
+							}
+						}
+					}
+				}
 
-        	}
-        }
+			}
+		}
 
 	}
 }
