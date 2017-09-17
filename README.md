@@ -14,4 +14,12 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
   
 ### ライセンス(License)  
 * GNU General Public License v3.0  
-* Copyright © 2017 Lawillia  
+* Copyright © 2017 Lawillia  
+  
+## mod一覧(mods)  
+  
+### No.01 "Disposable Bed Mod"  
+  
+ベッドを使い捨てにするmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod01dbm>  
+  
