@@ -18,5 +18,5 @@ No.01 "Disposable Bed Mod"
 * Copyright © 2017 Lawillia  
   
 ### ダウンロード(Download)  
-<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM01DBM-ver.1.0>  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM01DBM-ver.1.1>  
   
