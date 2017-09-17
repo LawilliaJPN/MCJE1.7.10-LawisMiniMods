@@ -6,7 +6,9 @@ No.01 "Disposable Bed Mod"
 ## 詳細(Details)  
   
 ### 概要(Overview)  
-バニラのベッドを使い捨てにするmodです。  
+マイクラJava版ver.1.7.10用の小規模単発modです。  
+1つ目は"Disposable Bed Mod"です。  
+ベッドを使い捨てにするmodです。  
   
 ### 動作環境(Requirements)  　
 * Minecraft Java Edition ver.1.7.10  
