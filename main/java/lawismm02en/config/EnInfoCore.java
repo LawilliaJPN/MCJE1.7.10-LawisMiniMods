@@ -1,6 +1,7 @@
-package lawismm02en;
+package lawismm02en.config;
 
 import cpw.mods.fml.common.ModMetadata;
+import lawismm02en.EndersNightmare;
 
 
 /*

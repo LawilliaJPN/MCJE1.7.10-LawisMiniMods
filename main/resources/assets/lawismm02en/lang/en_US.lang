@@ -1,0 +1,9 @@
+
+// Config
+config.endersnightmare.category.general=General
+config.endersnightmare.category.nether=Nether
+config.endersnightmare.category.enderattack=Ender's Attack
+
+// Chat
+msg.night.txt=You fell into a deep sleep because it's night.
+msg.endersattack.txt=You fell into a deep sleep due to Ender's Attack.

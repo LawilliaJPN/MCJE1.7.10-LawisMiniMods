@@ -1,0 +1,9 @@
+
+// コンフィグ
+config.endersnightmare.category.general=全般
+config.endersnightmare.category.nether=ネザー
+config.endersnightmare.category.enderattack=エンダーマンの攻撃
+
+// チャット
+msg.night.txt=夜になり、深い眠りに落ちた。
+msg.endersattack.txt=エンダーマンの攻撃により、深い眠りに落ちた。
