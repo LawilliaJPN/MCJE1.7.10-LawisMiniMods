@@ -18,5 +18,5 @@ No.02 "Enders' Nightmare"
 * Copyright © 2017 Lawillia  
   
 ### ダウンロード(Download)  
-<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM02EN-ver.1.0>  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM02EN-ver.1.1>  
   
