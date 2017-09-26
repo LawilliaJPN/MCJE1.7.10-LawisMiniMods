@@ -10,6 +10,8 @@ import cpw.mods.fml.common.ModMetadata;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import lawismm01dbm.config.DbmInfoCore;
+import lawismm01dbm.event.DbmEventHandler;
 import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = DisposableBedMod.MOD_ID, name = DisposableBedMod.MOD_NAME, version = DisposableBedMod.MOD_VERSION)

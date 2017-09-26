@@ -1,4 +1,4 @@
-package lawismm01dbm;
+package lawismm01dbm.event;
 
 import java.util.List;
 
