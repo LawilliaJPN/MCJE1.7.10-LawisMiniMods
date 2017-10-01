@@ -20,5 +20,5 @@ DQRmodのHUDに表示されたログを見かけ上リセットするためのmo
 * Copyright © 2017 Lawillia  
   
 ### ダウンロード(Download)  
-<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM01LR-ver.1.0>  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM03LR-ver.1.0>  
   
