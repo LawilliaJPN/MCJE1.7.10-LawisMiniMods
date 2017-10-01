@@ -28,3 +28,8 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
 夜になるとエンドに飛ばされるmodです。  
 <https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod02en>  
   
+### No.03 "Log Reset for DQRmod Hardcore"  
+  
+プレイヤーがスポーンした時に空チャットを8回送るmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod03lr>  
+  
