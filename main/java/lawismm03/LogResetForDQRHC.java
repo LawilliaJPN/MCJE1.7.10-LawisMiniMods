@@ -1,4 +1,4 @@
-package lawismm00;
+package lawismm03;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,16 +10,18 @@ import cpw.mods.fml.common.ModMetadata;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import lawismm00.config.InfoCore;
+import lawismm03.config.LrdInfoCore;
+import lawismm03.event.LrdEventHandler;
+import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = LawisMiniMod.MOD_ID, name = LawisMiniMod.MOD_NAME, version = LawisMiniMod.MOD_VERSION)
+@Mod(modid = LogResetForDQRHC.MOD_ID, name = LogResetForDQRHC.MOD_NAME, version = LogResetForDQRHC.MOD_VERSION)
 
-public class LawisMiniMod {
-	public static final String DESCRIPTION = "Lawis Mini Mod #00";
-	public static final String MOD_ID = "ID";
-	public static final String MOD_NAME = "NAME";
+public class LogResetForDQRHC {
+	public static final String DESCRIPTION = "Lawis Mini Mod #03";
+	public static final String MOD_ID = "LogResetForDQRmodHardCore";
+	public static final String MOD_NAME = "Log Reset for DQRmod HardCore";
 	public static final String MOD_VERSION = "1.0";
-	public static Logger logger = LogManager.getLogger("ID");
+	public static Logger logger = LogManager.getLogger(MOD_ID);
 
 	@Metadata(MOD_ID)
 	private static ModMetadata meta;
@@ -27,7 +29,9 @@ public class LawisMiniMod {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		// MODの情報の登録
-		InfoCore.registerInfo(meta);
+		LrdInfoCore.registerInfo(meta);
+		// イベント
+		MinecraftForge.EVENT_BUS.register(new LrdEventHandler());
 	}
 
 	@EventHandler

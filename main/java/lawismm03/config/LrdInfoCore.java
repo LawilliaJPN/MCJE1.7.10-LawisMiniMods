@@ -1,7 +1,7 @@
-package lawismm00.config;
+package lawismm03.config;
 
 import cpw.mods.fml.common.ModMetadata;
-import lawismm00.LawisMiniMod;
+import lawismm03.LogResetForDQRHC;
 
 
 /*
@@ -10,12 +10,12 @@ import lawismm00.LawisMiniMod;
  *
  * preInitで最初に呼び出す。
  */
-public class InfoCore {
+public class LrdInfoCore {
 	public static void registerInfo(ModMetadata meta) {
-		meta.modId = LawisMiniMod.MOD_ID;
-		meta.name = LawisMiniMod.MOD_NAME;
-		meta.description = LawisMiniMod.DESCRIPTION;
-		meta.version = LawisMiniMod.MOD_VERSION;
+		meta.modId = LogResetForDQRHC.MOD_ID;
+		meta.name = LogResetForDQRHC.MOD_NAME;
+		meta.description = LogResetForDQRHC.DESCRIPTION;
+		meta.version = LogResetForDQRHC.MOD_VERSION;
 		meta.url = "http://lawiss.com/minecraft-modding/";
 		meta.authorList.add("Lawillia");
 		meta.credits = "";
