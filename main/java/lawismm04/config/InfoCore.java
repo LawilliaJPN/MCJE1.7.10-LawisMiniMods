@@ -1,7 +1,7 @@
-package lawismm00.config;
+package lawismm04.config;
 
 import cpw.mods.fml.common.ModMetadata;
-import lawismm00.LawisMiniMod;
+import lawismm04.PowerlessPlayer;
 
 
 /*
@@ -12,10 +12,10 @@ import lawismm00.LawisMiniMod;
  */
 public class InfoCore {
 	public static void registerInfo(ModMetadata meta) {
-		meta.modId = LawisMiniMod.MOD_ID;
-		meta.name = LawisMiniMod.MOD_NAME;
-		meta.description = LawisMiniMod.DESCRIPTION;
-		meta.version = LawisMiniMod.MOD_VERSION;
+		meta.modId = PowerlessPlayer.MOD_ID;
+		meta.name = PowerlessPlayer.MOD_NAME;
+		meta.description = PowerlessPlayer.DESCRIPTION;
+		meta.version = PowerlessPlayer.MOD_VERSION;
 		meta.url = "http://lawiss.com/minecraft-modding/";
 		meta.authorList.add("Lawillia");
 		meta.credits = "";

@@ -1,4 +1,4 @@
-package lawismm00;
+package lawismm04;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,16 +10,18 @@ import cpw.mods.fml.common.ModMetadata;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import lawismm00.config.InfoCore;
+import lawismm04.config.InfoCore;
+import lawismm04.event.PpEventHandler;
+import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = LawisMiniMod.MOD_ID, name = LawisMiniMod.MOD_NAME, version = LawisMiniMod.MOD_VERSION)
+@Mod(modid = PowerlessPlayer.MOD_ID, name = PowerlessPlayer.MOD_NAME, version = PowerlessPlayer.MOD_VERSION)
 
-public class LawisMiniMod {
-	public static final String DESCRIPTION = "Lawis Mini Mod #00";
-	public static final String MOD_ID = "ID";
-	public static final String MOD_NAME = "NAME";
+public class PowerlessPlayer {
+	public static final String DESCRIPTION = "Lawis Mini Mod #04";
+	public static final String MOD_ID = "PowerlessPlayerMod";
+	public static final String MOD_NAME = "Powerless Player Mod";
 	public static final String MOD_VERSION = "1.0";
-	public static Logger logger = LogManager.getLogger("ID");
+	public static Logger logger = LogManager.getLogger(MOD_ID);
 
 	@Metadata(MOD_ID)
 	private static ModMetadata meta;
@@ -28,6 +30,8 @@ public class LawisMiniMod {
 	public void preInit(FMLPreInitializationEvent event){
 		// MODの情報の登録
 		InfoCore.registerInfo(meta);
+		// イベント処理
+		MinecraftForge.EVENT_BUS.register(new PpEventHandler());
 	}
 
 	@EventHandler
