@@ -13,7 +13,7 @@ public class PpEventHandler {
 	public void PlayerAttackEvent(LivingHurtEvent event) {
 		if ((event.source.getSourceOfDamage() instanceof EntityPlayer)) {
 			// 「プレイヤーが殴って攻撃した時」以外を除外する。
-			if (event.source.getDamageType() != "explosion.player") return;
+			if (event.source.getDamageType() == "explosion.player") return;
 
 			/* デバッグ用コード
 				EntityPlayer player = (EntityPlayer)event.source.getEntity();
