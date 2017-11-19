@@ -33,3 +33,7 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
 プレイヤーがスポーンした時に空チャットを8回送るmodです。  
 <https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod03lrd>  
   
+### No.04 "Powerless Player Mod"  
+  
+プレイヤーがEntityを殴った時のダメージを0にするmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod04pp>  
