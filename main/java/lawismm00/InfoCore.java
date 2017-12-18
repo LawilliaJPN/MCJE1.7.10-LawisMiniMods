@@ -1,7 +1,6 @@
-package lawismm00.config;
+package lawismm00;
 
 import cpw.mods.fml.common.ModMetadata;
-import lawismm00.LawisMiniMod;
 
 
 /*
