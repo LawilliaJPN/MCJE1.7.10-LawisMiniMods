@@ -36,5 +36,9 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
 ### No.04 "Powerless Player Mod"  
   
 プレイヤーがEntityを殴った時のダメージを0にするmodです。  
-<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod04ppm>  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod04ppm>  
   
+### No.05 "Instant Death Mod"  
+  
+ほぼすべてのダメージを即死にするmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod05id>  
