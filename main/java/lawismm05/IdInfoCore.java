@@ -1,4 +1,4 @@
-package lawismm00;
+package lawismm05;
 
 import cpw.mods.fml.common.ModMetadata;
 
@@ -9,12 +9,12 @@ import cpw.mods.fml.common.ModMetadata;
  *
  * preInitで最初に呼び出す。
  */
-public class InfoCore {
+public class IdInfoCore {
 	public static void registerInfo(ModMetadata meta) {
-		meta.modId = LawisMiniMod.MOD_ID;
-		meta.name = LawisMiniMod.MOD_NAME;
-		meta.description = LawisMiniMod.DESCRIPTION;
-		meta.version = LawisMiniMod.MOD_VERSION;
+		meta.modId = InstantDeath.MOD_ID;
+		meta.name = InstantDeath.MOD_NAME;
+		meta.description = InstantDeath.DESCRIPTION;
+		meta.version = InstantDeath.MOD_VERSION;
 		meta.url = "http://lawiss.com/minecraft-modding/";
 		meta.authorList.add("Lawillia");
 		meta.credits = "";
