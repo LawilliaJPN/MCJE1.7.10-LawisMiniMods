@@ -18,4 +18,4 @@ No.05 "Instant Death Mod"  
 * Copyright © 2017 Lawillia  
   
 ### ダウンロード(Download)  
-未公開です。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/releases/tag/MM05ID-ver.1.0>  
