@@ -41,7 +41,7 @@ public class InstantDeath {
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		// DQRmodへのアドオン
-		IdAddons.loadDQR();
+		// アドオン
+		IdAddons.loadMods();
 	}
 }
