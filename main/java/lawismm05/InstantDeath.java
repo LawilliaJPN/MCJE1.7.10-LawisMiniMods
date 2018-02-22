@@ -20,7 +20,7 @@ public class InstantDeath {
 	public static final String DESCRIPTION = "Lawis Mini Mod #05";
 	public static final String MOD_ID = "InstantDeathMod";
 	public static final String MOD_NAME = "Instant Death Mod";
-	public static final String MOD_VERSION = "1.0";
+	public static final String MOD_VERSION = "1.1";
 	public static Logger logger = LogManager.getLogger(MOD_ID);
 
 	@Metadata(MOD_ID)

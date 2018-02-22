@@ -16,7 +16,10 @@ public class IdEventHandlerForDqr {
 		// System.out.println("[ID]DqrDamageEntityEvent-Phase." + event.damagePhase);
 
 		// 自作mod同士の競合回避のための例外処理
-		if ((IdAddons.isPpmLoaded()) && (event.source.getSourceOfDamage() instanceof EntityPlayer) && !(event.source.getDamageType() == "explosion.player")) return;
+		if ((IdAddons.isPpmLoaded()) && (event.source.getSourceOfDamage() instanceof EntityPlayer)) {
+			if (!(event.source.getDamageType() == "explosion.player")) return;
+			if (!(event.source.getDamageType() == "indirectMagic")) return;
+		}
 
 		if (event.damagePhase == 4) event.retDamage = event.damager.getMaxHealth() +1;
 		if (event.damagePhase == 5) event.retMissFlg = false;
@@ -32,7 +35,10 @@ public class IdEventHandlerForDqr {
 		// System.out.println("[ID]DqrDamageMobEvent-Phase." + event.damagePhase);
 
 		// 自作mod同士の競合回避のための例外処理
-		if ((IdAddons.isPpmLoaded()) && (event.source.getSourceOfDamage() instanceof EntityPlayer) && !(event.source.getDamageType() == "explosion.player")) return;
+		if ((IdAddons.isPpmLoaded()) && (event.source.getSourceOfDamage() instanceof EntityPlayer)) {
+			if (!(event.source.getDamageType() == "explosion.player")) return;
+			if (!(event.source.getDamageType() == "indirectMagic")) return;
+		}
 
 		if (4 <= event.damagePhase) event.retAbsoluteDamage = event.mob.getMaxHealth() +1;
 	}
