@@ -1,6 +1,7 @@
 package lawismm04.event;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import lawismm04.addon.PpAddons;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
@@ -11,6 +12,8 @@ public class PpEventHandler {
 	 */
 	@SubscribeEvent
 	public void PlayerAttackEvent(LivingHurtEvent event) {
+		if (PpAddons.isDqrLoaded()) return;
+
 		if ((event.source.getSourceOfDamage() instanceof EntityPlayer)) {
 			// 「プレイヤーが殴って攻撃した時」以外を除外する。
 			if (event.source.getDamageType() == "explosion.player") return;

@@ -1,7 +1,6 @@
-package lawismm04.config;
+package lawismm04;
 
 import cpw.mods.fml.common.ModMetadata;
-import lawismm04.PowerlessPlayer;
 
 
 /*
@@ -10,7 +9,7 @@ import lawismm04.PowerlessPlayer;
  *
  * preInitで最初に呼び出す。
  */
-public class InfoCore {
+public class PpInfoCore {
 	public static void registerInfo(ModMetadata meta) {
 		meta.modId = PowerlessPlayer.MOD_ID;
 		meta.name = PowerlessPlayer.MOD_NAME;
