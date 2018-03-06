@@ -42,3 +42,8 @@ Lawi's Mini Mods(Minecraft Java Edition ver.1.7.10)
   
 ほぼすべてのダメージを即死にするmodです。  
 <https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod05id>  
+
+### No.06 "Indestructible Stone Mod"  
+  
+石を破壊できなくし、Entityが丸石を落とすようにするmodです。  
+<https://github.com/LawilliaJPN/MCJE1.7.10-LawisMiniMods/tree/minimod06is>  
