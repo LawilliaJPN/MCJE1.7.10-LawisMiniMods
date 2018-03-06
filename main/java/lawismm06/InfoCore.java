@@ -1,4 +1,4 @@
-package lawismm00;
+package lawismm06;
 
 import cpw.mods.fml.common.ModMetadata;
 
@@ -11,10 +11,10 @@ import cpw.mods.fml.common.ModMetadata;
  */
 public class InfoCore {
 	public static void registerInfo(ModMetadata meta) {
-		meta.modId = LawisMiniMod.MOD_ID;
-		meta.name = LawisMiniMod.MOD_NAME;
-		meta.description = LawisMiniMod.DESCRIPTION;
-		meta.version = LawisMiniMod.MOD_VERSION;
+		meta.modId = IndestructibleStone.MOD_ID;
+		meta.name = IndestructibleStone.MOD_NAME;
+		meta.description = IndestructibleStone.DESCRIPTION;
+		meta.version = IndestructibleStone.MOD_VERSION;
 		meta.url = "http://lawiss.com/minecraft-modding/";
 		meta.authorList.add("Lawillia");
 		meta.credits = "";
